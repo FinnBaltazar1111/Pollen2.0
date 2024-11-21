@@ -1,4 +1,4 @@
-# Pollen
+# Pollen 2.0
 ChromeOS User Policy Editor
 ![Pollen](/Pollen.svg)
 
@@ -10,17 +10,17 @@ You **need** to have Developer Mode enabled!
 > [!NOTE]
 To enter the VT-2 shell, press CTRL + ALT + F2 (usually the right arrow key on your Chromebook)
   - Log in as `root`
-- Run the command `curl -Ls https://mercuryworkshop.github.io/Pollen/Pollen.sh | bash`
+- Run the command `curl -Ls https://finnbaltazar1111.github.io/Pollen/Pollen.sh | bash`
 
 ### Disabled RootFS (Permanent)
-> [!NOTE]
+> [!IMPORTANT]
 Disabling RootFS **will** soft-brick your Chromebook if you boot back into verified mode.
 - Open the VT-2 Shell
   - Log in as `root`
-- Run the command `curl -Ls https://mercuryworkshop.github.io/Pollen/RootFS.sh | bash`
+- Run the command `curl -Ls https://finnbaltazar1111.github.io/Pollen/RootFS.sh | bash`
 - Reboot
 - Log in to the VT-2 Shell again
-- Run `curl -Ls https://mercuryworkshop.github.io/Pollen/PollenFS.sh | bash`
+- Run `curl -Ls https://finnbaltazar1111.github.io/Pollen/PollenFS.sh | bash`
 > [!NOTE]
 If you notice that policies are still being applied, visit `chrome://policy` and click "Reload Policies" or if chrome://policy is blocked, enter VT-2 and run `restart ui`.
 
